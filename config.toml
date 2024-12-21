@@ -1,0 +1,7 @@
+theme = "dracula"
+
+[keys.normal]
+Z = { Z = ":wq" }
+
+[keys.normal.g]
+o = [ "goto_definition", "vsplit" ]
