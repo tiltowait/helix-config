@@ -4,6 +4,6 @@ language-servers = [ "pyright" ]
 auto-format = true
 
   [language.formatter]
-  command = "ruff"
-  args = [ "format", "-", "--quiet", "--line-length=79" ]
+  command = "sh"
+  args = [ "-c", "ruff format - --quiet | isort -d -" ]
 
