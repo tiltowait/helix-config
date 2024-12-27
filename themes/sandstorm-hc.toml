@@ -1,0 +1,74 @@
+# Sandstorm theme for Helix (High Contrast)
+# Author: Nick
+
+"attribute" = { fg = "#8ebeb4" }  # Brightened from #7dada3
+"keyword" = { fg = "#689190", modifiers = ["italic"] }  # Brightened from #567d7c
+"keyword.directive" = "#e5cfaa"  # Brightened from #d4be98
+"namespace" = { fg = "#95c08e" }  # Brightened from #89b482
+"punctuation" = "#e5cfaa"  # Brightened from #d4be98
+"punctuation.delimiter" = "#d6c29e"  # Brightened from #c5b18d
+"punctuation.bracket" = "#d6c29e"
+"punctuation.special" = "#d6c29e"
+"string" = "#bc9e61"  # Brightened from #ab8d50
+"string.regexp" = "#bc7d8e"  # Brightened from #ab6c7d
+"string.special" = "#bc7d8e"
+"comment" = { fg = "#8d8074", modifiers = ["italic"] }  # Brightened from #7c6f64
+"comment.block.documentation" = { fg = "#a39485", modifiers = ["italic", "bold"] }  # Brightened from #928374
+"variable" = "#e5cfaa"  # Brightened from #d4be98
+"variable.other.member" = "#8ebeb4"
+"variable.parameter" = "#bc7d8e"
+"label" = "#8ebeb4"
+"constant" = "#e497ac"  # Brightened from #d3869b
+"constant.numeric" = "#bc7d8e"
+"constant.character.escape" = "#a39485"
+"type" = "#95c08e"
+"type.builtin" = "#95c08e"
+"constructor" = "#95c08e"
+"function" = "#95c08e"
+"function.builtin" = "#95c08e"
+"tag" = "#8ebeb4"
+"special" = "#bc7d8e"
+
+"markup.heading" = "#fb7a73"  # Brightened from #ea6962
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#95c08e"
+"markup.link.text" = "#95c08e"
+"markup.raw" = "#b5c771"  # Brightened from #a9b665
+
+"diff.plus" = "#b5c771"
+"diff.minus" = "#fb7a73"
+"diff.delta" = "#e4b768"  # Brightened from #d8a657
+
+"ui.background" = { bg = "#151621" }  # Darkened from #1a1b25
+"ui.background.separator" = "#292828"
+"ui.cursor" = { bg = "#8ebeb4" }
+"ui.cursor.match" = { fg = "#8ebeb4", bg = "#3b4439" }
+"ui.cursor.insert" = { bg = "#8ebeb4" }
+"ui.cursor.select" = { bg = "#8ebeb4" }
+"ui.cursorline" = { bg = "#252736" }  # Darkened from #2a2d3b
+"ui.linenr" = "#6b635d"  # Brightened from #5a524c
+"ui.linenr.selected" = "#e5cfaa"
+"ui.statusline" = { fg = "#e5cfaa", bg = "#151621" }
+"ui.statusline.inactive" = { fg = "#a39485", bg = "#151621" }
+"ui.popup" = { bg = "#252736" }
+"ui.window" = "#292828"
+"ui.help" = { fg = "#e5cfaa", bg = "#252736" }
+"ui.text" = "#d6c9b4"  # Brightened from #c5b8a3
+"ui.text.focus" = "#e5cfaa"
+"ui.selection" = { bg = "#504b47" }  # Brightened from #45403dd3
+"ui.menu" = { fg = "#e5cfaa", bg = "#252736" }
+"ui.menu.selected" = { fg = "#e5cfaa", bg = "#504b47" }
+"ui.virtual.whitespace" = "#a39485"
+"ui.virtual.ruler" = "#504b47"
+
+"hint" = "#8ebeb4"
+"info" = "#8ebeb4"
+"warning" = "#e4b768"
+"error" = "#fb7a73"
+"diagnostic" = { underline = { style = "curl" } }
+
+[palette]
+background = "#151621"
+foreground = "#e5cfaa"
+

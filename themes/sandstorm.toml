@@ -1,0 +1,74 @@
+# Sandstorm theme for Helix
+# Author: Nick
+
+"attribute" = { fg = "#7dada3" }
+"keyword" = { fg = "#567d7c", modifiers = ["italic"] }
+"keyword.directive" = "#d4be98"  # mapped from preproc
+"namespace" = { fg = "#89b482" }  # mapped from type
+"punctuation" = "#d4be98"
+"punctuation.delimiter" = "#c5b18d"
+"punctuation.bracket" = "#c5b18d"
+"punctuation.special" = "#c5b18d"
+"string" = "#ab8d50"
+"string.regexp" = "#ab6c7d"
+"string.special" = "#ab6c7d"
+"comment" = { fg = "#7c6f64", modifiers = ["italic"] }
+"comment.block.documentation" = { fg = "#928374", modifiers = ["italic", "bold"] }
+"variable" = "#d4be98"
+"variable.other.member" = "#7daea3"  # mapped from property
+"variable.parameter" = "#ab6c7d"     # mapped from variable.special
+"label" = "#7daea3"
+"constant" = "#d3869b"
+"constant.numeric" = "#ab6c7d"       # mapped from number
+"constant.character.escape" = "#928374"
+"type" = "#89b482"
+"type.builtin" = "#89b482"
+"constructor" = "#89b482"
+"function" = "#89b482"
+"function.builtin" = "#89b482"
+"tag" = "#7daea3"
+"special" = "#ab6c7d"
+
+"markup.heading" = "#ea6962"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = "#89b482"
+"markup.link.text" = "#89b482"
+"markup.raw" = "#a9b665"
+
+"diff.plus" = "#a9b665"
+"diff.minus" = "#ea6962"
+"diff.delta" = "#d8a657"
+
+"ui.background" = { bg = "#1a1b25" }
+"ui.background.separator" = "#292828"
+"ui.cursor" = { bg = "#7daea3" }
+"ui.cursor.match" = { fg = "#7daea3", bg = "#3b4439" }
+"ui.cursor.insert" = { bg = "#7daea3" }
+"ui.cursor.select" = { bg = "#7daea3" }
+"ui.cursorline" = { bg = "#2a2d3b" }
+"ui.linenr" = "#5a524c"
+"ui.linenr.selected" = "#d4be98"
+"ui.statusline" = { fg = "#d4be98", bg = "#1a1b25" }
+"ui.statusline.inactive" = { fg = "#928374", bg = "#1a1b25" }
+"ui.popup" = { bg = "#2a2d3b" }
+"ui.window" = "#292828"
+"ui.help" = { fg = "#d4be98", bg = "#2a2d3b" }
+"ui.text" = "#c5b8a3"
+"ui.text.focus" = "#d4be98"
+"ui.selection" = { bg = "#45403dd3" }
+"ui.menu" = { fg = "#d4be98", bg = "#2a2d3b" }
+"ui.menu.selected" = { fg = "#d4be98", bg = "#45403dd3" }
+"ui.virtual.whitespace" = "#928374"
+"ui.virtual.ruler" = "#444343"
+
+"hint" = "#7daea3"
+"info" = "#7daea3"
+"warning" = "#d8a657"
+"error" = "#ea6962"
+"diagnostic" = { underline = { style = "curl" } }
+
+[palette]
+background = "#1a1b25"
+foreground = "#d4be98"
+
