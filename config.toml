@@ -2,6 +2,17 @@ theme = "dracula"
 
 [editor]
 line-number = "relative"
+bufferline = "multiple"
+cursorline = true
+rulers = [100]
+true-color = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator"]
+right = ["diagnostics", "selections", "register", "position", "file-encoding", "version-control"]
+
+[editor.indent-guides]
+render = true
 
 [editor.cursor-shape]
 insert = "bar"
