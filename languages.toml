@@ -7,3 +7,20 @@ auto-format = true
   command = "sh"
   args = [ "-c", "ruff format - --quiet | isort -d -" ]
 
+[[language]]
+name = "svelte"
+auto-format = true
+roots = ["svelte.config.js", "svelte.config.ts"]
+
+  [language.formatter]
+  command = "prettier"
+  args = ["--parser", "svelte"]
+
+
+[[language]]
+name = "typescript"
+auto-format = true
+
+  [language.formatter]
+  command = "prettier"
+  args = ["--parser", "typescript"]
